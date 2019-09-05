@@ -11,9 +11,9 @@ def find_max_value(array)
       counter += 1
     else
       counter += 1 
-  return value
+    end
   end
-end
+  return value
 end
 
 def find_min_value(array)
@@ -25,7 +25,7 @@ def find_min_value(array)
       counter += 1 
     else
       counter += 1 
+    end
   end
-  puts value
-end
+  return value
 end
